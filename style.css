@@ -396,4 +396,36 @@ body.nav-active { overflow: hidden; }
     50% { transform: translateY(30px); }
   }
   
+  .has-bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .input-field {
+    background-color: var(--eerie-black-2);
+    color: var(--white);
+    height: 56px;
+    padding: 10px 20px;
+    border: 1px solid var(--white-alpha-10);
+    margin-block-end: 20px;
+    outline: none;
+    transition: border-color var(--transition-2);
+  }
+  
+  .input-field::placeholder { color: inherit; }
+  
+  .input-field:focus { border-color: var(--gold-crayola); }
+  
+  .icon-wrapper {
+    position: relative;
+    margin-block-end: 20px;
+  }
+  
+  .icon-wrapper .input-field {
+    margin-block-end: 0;
+    padding-inline-start: 40px;
+    appearance: none;
+    cursor: pointer;
+  }
   
