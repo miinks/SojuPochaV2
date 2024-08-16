@@ -156,3 +156,9 @@ body.nav-active { overflow: hidden; }
     line-height: var(--lineHeight-1);
   }
   
+  .headline-1 { font-size: var(--fontSize-headline-1); }
+
+  .headline-2 {
+    font-size: var(--fontSize-headline-2);
+    line-height: var(--lineHeight-6);
+  }
