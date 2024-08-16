@@ -365,5 +365,35 @@ body.nav-active { overflow: hidden; }
   overflow: hidden;
   background-color: var(--eerie-black-4);
 }
+
+.btn-text {
+    color: var(--gold-crayola);
+    padding-block-end: 4px;
+    margin-inline: auto;
+    text-transform: uppercase;
+    letter-spacing: var(--letterSpacing-3);
+    font-weight: var(--weight-bold);
+    transition: var(--transition-1);
+  }
+  
+  .btn-text:is(:hover, :focus-visible) { color: var(--white); }
+  
+  .shape {
+    display: none;
+    position: absolute;
+    max-width: max-content;
+    z-index: -1;
+  }
+  
+  .w-100 { width: 100%; }
+  
+  .move-anim { animation: move 5s linear infinite; }
+  
+  @keyframes move {
+    0%,
+    100% { transform: translateY(0); }
+  
+    50% { transform: translateY(30px); }
+  }
   
   
