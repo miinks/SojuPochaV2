@@ -150,3 +150,9 @@ body.nav-active { overflow: hidden; }
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-2);
 }
+
+.display-1 {
+    font-size: var(--fontSize-display-1);
+    line-height: var(--lineHeight-1);
+  }
+  
